@@ -1,4 +1,4 @@
-class Stack:
+Class Stack:
     def __init__(self):
         self.items = []
 
@@ -30,3 +30,4 @@ s.push(8.4)
 print(s.pop())
 print(s.pop())
 print(s.size())
+print(s.peek())
